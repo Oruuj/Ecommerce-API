@@ -69,3 +69,4 @@ C:\Users\Oruj\Desktop\Ecommerce-API\Ecommerce-API\Repository\obj\Debug\net8.0\re
 C:\Users\Oruj\Desktop\Ecommerce-API\Ecommerce-API\Repository\obj\Debug\net8.0\Repository.pdb
 C:\Users\Oruj\Desktop\Ecommerce-API\Ecommerce-API\Repository\obj\Debug\net8.0\Repository.genruntimeconfig.cache
 C:\Users\Oruj\Desktop\Ecommerce-API\Ecommerce-API\Repository\obj\Debug\net8.0\ref\Repository.dll
+C:\Users\Oruj\Desktop\Ecommerce-API\Ecommerce-API\Repository\obj\Debug\net8.0\Repository.sourcelink.json
