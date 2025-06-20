@@ -1,0 +1,36 @@
+2025-06-19 22:24:55.531 +04:00 [INF] User profile is available. Using 'C:\Users\Oruj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-19 22:24:55.615 +04:00 [INF] Now listening on: https://localhost:7279
+2025-06-19 22:24:55.616 +04:00 [INF] Now listening on: http://localhost:5206
+2025-06-19 22:24:55.662 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-19 22:24:55.663 +04:00 [INF] Hosting environment: Development
+2025-06-19 22:24:55.663 +04:00 [INF] Content root path: C:\Users\Oruj\Documents\Projects\Ecommerce\Ecommerce-API\Ecommerce-API
+2025-06-19 22:24:55.703 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7279/swagger/index.html - null null
+2025-06-19 22:24:55.783 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7279/swagger/index.html - 200 null text/html;charset=utf-8 80.4541ms
+2025-06-19 22:24:55.803 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7279/_vs/browserLink - null null
+2025-06-19 22:24:55.803 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7279/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-19 22:24:55.810 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7279/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 6.4038ms
+2025-06-19 22:24:55.819 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7279/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.2477ms
+2025-06-19 22:24:55.875 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7279/swagger/favicon-32x32.png - null null
+2025-06-19 22:24:55.881 +04:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-06-19 22:24:55.882 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7279/swagger/favicon-32x32.png - 499 628 image/png 7.3065ms
+2025-06-19 22:24:55.913 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7279/swagger/v1/swagger.json - null null
+2025-06-19 22:24:55.925 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7279/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.2593ms
+2025-06-19 22:25:02.932 +04:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'BasketItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-19 22:25:02.952 +04:00 [WRN] No store type was specified for the decimal property 'DiscountPercentage' on entity type 'Discount'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-19 22:25:02.952 +04:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-19 22:25:03.170 +04:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-19 22:25:03.184 +04:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-06-19 22:25:03.185 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-19 22:25:03.186 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-06-19 22:25:03.198 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-06-19 22:25:03.207 +04:00 [INF] Applying migration '20250619182456_t2'.
+2025-06-19 22:25:03.236 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250619182456_t2', N'8.0.17');

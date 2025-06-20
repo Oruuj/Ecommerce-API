@@ -1,0 +1,217 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Oruj\\Desktop\\Ecommerce-API\\Ecommerce-API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4FCD2C-12FC-4113-BB82-D5103AD8F72C}|Repository\\Repository.csproj|c:\\users\\oruj\\desktop\\ecommerce-api\\ecommerce-api\\repository\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B4FCD2C-12FC-4113-BB82-D5103AD8F72C}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965DB42A-A3E6-405A-A693-DB7CE4A6852C}|Ecommerce-API\\Ecommerce-API.csproj|c:\\users\\oruj\\desktop\\ecommerce-api\\ecommerce-api\\ecommerce-api\\controllers\\ui\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{965DB42A-A3E6-405A-A693-DB7CE4A6852C}|Ecommerce-API\\Ecommerce-API.csproj|solutionrelative:ecommerce-api\\controllers\\ui\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD60ECA4-697D-4FE0-B72F-EE617EAFB2AF}|Service\\Service.csproj|c:\\users\\oruj\\desktop\\ecommerce-api\\ecommerce-api\\service\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD60ECA4-697D-4FE0-B72F-EE617EAFB2AF}|Service\\Service.csproj|solutionrelative:service\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965DB42A-A3E6-405A-A693-DB7CE4A6852C}|Ecommerce-API\\Ecommerce-API.csproj|c:\\users\\oruj\\desktop\\ecommerce-api\\ecommerce-api\\ecommerce-api\\controllers\\ui\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{965DB42A-A3E6-405A-A693-DB7CE4A6852C}|Ecommerce-API\\Ecommerce-API.csproj|solutionrelative:ecommerce-api\\controllers\\ui\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD60ECA4-697D-4FE0-B72F-EE617EAFB2AF}|Service\\Service.csproj|c:\\users\\oruj\\desktop\\ecommerce-api\\ecommerce-api\\service\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD60ECA4-697D-4FE0-B72F-EE617EAFB2AF}|Service\\Service.csproj|solutionrelative:service\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965DB42A-A3E6-405A-A693-DB7CE4A6852C}|Ecommerce-API\\Ecommerce-API.csproj|c:\\users\\oruj\\desktop\\ecommerce-api\\ecommerce-api\\ecommerce-api\\controllers\\admin\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{965DB42A-A3E6-405A-A693-DB7CE4A6852C}|Ecommerce-API\\Ecommerce-API.csproj|solutionrelative:ecommerce-api\\controllers\\admin\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD60ECA4-697D-4FE0-B72F-EE617EAFB2AF}|Service\\Service.csproj|c:\\users\\oruj\\desktop\\ecommerce-api\\ecommerce-api\\service\\dtos\\accountdtos\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD60ECA4-697D-4FE0-B72F-EE617EAFB2AF}|Service\\Service.csproj|solutionrelative:service\\dtos\\accountdtos\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD60ECA4-697D-4FE0-B72F-EE617EAFB2AF}|Service\\Service.csproj|c:\\users\\oruj\\desktop\\ecommerce-api\\ecommerce-api\\service\\dtos\\accountdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD60ECA4-697D-4FE0-B72F-EE617EAFB2AF}|Service\\Service.csproj|solutionrelative:service\\dtos\\accountdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD60ECA4-697D-4FE0-B72F-EE617EAFB2AF}|Service\\Service.csproj|c:\\users\\oruj\\desktop\\ecommerce-api\\ecommerce-api\\service\\dtos\\sliderdtos\\sliderupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD60ECA4-697D-4FE0-B72F-EE617EAFB2AF}|Service\\Service.csproj|solutionrelative:service\\dtos\\sliderdtos\\sliderupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965DB42A-A3E6-405A-A693-DB7CE4A6852C}|Ecommerce-API\\Ecommerce-API.csproj|c:\\users\\oruj\\desktop\\ecommerce-api\\ecommerce-api\\ecommerce-api\\controllers\\admin\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{965DB42A-A3E6-405A-A693-DB7CE4A6852C}|Ecommerce-API\\Ecommerce-API.csproj|solutionrelative:ecommerce-api\\controllers\\admin\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD60ECA4-697D-4FE0-B72F-EE617EAFB2AF}|Service\\Service.csproj|c:\\users\\oruj\\desktop\\ecommerce-api\\ecommerce-api\\service\\dtos\\accountdtos\\updateprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD60ECA4-697D-4FE0-B72F-EE617EAFB2AF}|Service\\Service.csproj|solutionrelative:service\\dtos\\accountdtos\\updateprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD60ECA4-697D-4FE0-B72F-EE617EAFB2AF}|Service\\Service.csproj|c:\\users\\oruj\\desktop\\ecommerce-api\\ecommerce-api\\service\\dtos\\sliderdtos\\sliderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD60ECA4-697D-4FE0-B72F-EE617EAFB2AF}|Service\\Service.csproj|solutionrelative:service\\dtos\\sliderdtos\\sliderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Oruj\\Desktop\\Ecommerce-API\\Ecommerce-API\\Repository\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Oruj\\Desktop\\Ecommerce-API\\Ecommerce-API\\Repository\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Repository\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T19:07:38.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Oruj\\Desktop\\Ecommerce-API\\Ecommerce-API\\Ecommerce-API\\Controllers\\UI\\ProductController.cs",
+              "RelativeDocumentMoniker": "Ecommerce-API\\Controllers\\UI\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Oruj\\Desktop\\Ecommerce-API\\Ecommerce-API\\Ecommerce-API\\Controllers\\UI\\ProductController.cs",
+              "RelativeToolTip": "Ecommerce-API\\Controllers\\UI\\ProductController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T19:05:47.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Oruj\\Desktop\\Ecommerce-API\\Ecommerce-API\\Service\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Oruj\\Desktop\\Ecommerce-API\\Ecommerce-API\\Service\\Services\\ProductService.cs",
+              "RelativeToolTip": "Service\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAIBAAAAAAAAAAAIwAYBAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T19:03:16.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Oruj\\Desktop\\Ecommerce-API\\Ecommerce-API\\Ecommerce-API\\Controllers\\UI\\AccountController.cs",
+              "RelativeDocumentMoniker": "Ecommerce-API\\Controllers\\UI\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Oruj\\Desktop\\Ecommerce-API\\Ecommerce-API\\Ecommerce-API\\Controllers\\UI\\AccountController.cs",
+              "RelativeToolTip": "Ecommerce-API\\Controllers\\UI\\AccountController.cs",
+              "ViewState": "AgIAACcBAAAAAAAAAAAwwD4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T19:02:40.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SliderUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Oruj\\Desktop\\Ecommerce-API\\Ecommerce-API\\Service\\DTOs\\SliderDTOs\\SliderUpdateDTO.cs",
+              "RelativeDocumentMoniker": "Service\\DTOs\\SliderDTOs\\SliderUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\Oruj\\Desktop\\Ecommerce-API\\Ecommerce-API\\Service\\DTOs\\SliderDTOs\\SliderUpdateDTO.cs",
+              "RelativeToolTip": "Service\\DTOs\\SliderDTOs\\SliderUpdateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T18:32:10.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Oruj\\Desktop\\Ecommerce-API\\Ecommerce-API\\Ecommerce-API\\Controllers\\Admin\\AccountController.cs",
+              "RelativeDocumentMoniker": "Ecommerce-API\\Controllers\\Admin\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Oruj\\Desktop\\Ecommerce-API\\Ecommerce-API\\Ecommerce-API\\Controllers\\Admin\\AccountController.cs",
+              "RelativeToolTip": "Ecommerce-API\\Controllers\\Admin\\AccountController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA/wCgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T18:26:35.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\Oruj\\Desktop\\Ecommerce-API\\Ecommerce-API\\Service\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\AccountService.cs",
+              "ToolTip": "C:\\Users\\Oruj\\Desktop\\Ecommerce-API\\Ecommerce-API\\Service\\Services\\AccountService.cs",
+              "RelativeToolTip": "Service\\Services\\AccountService.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAASwKkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T16:13:49.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Oruj\\Desktop\\Ecommerce-API\\Ecommerce-API\\Service\\DTOs\\AccountDTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Service\\DTOs\\AccountDTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\Oruj\\Desktop\\Ecommerce-API\\Ecommerce-API\\Service\\DTOs\\AccountDTOs\\UserDTO.cs",
+              "RelativeToolTip": "Service\\DTOs\\AccountDTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T18:18:57.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateProfileDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Oruj\\Desktop\\Ecommerce-API\\Ecommerce-API\\Service\\DTOs\\AccountDTOs\\UpdateProfileDTO.cs",
+              "RelativeDocumentMoniker": "Service\\DTOs\\AccountDTOs\\UpdateProfileDTO.cs",
+              "ToolTip": "C:\\Users\\Oruj\\Desktop\\Ecommerce-API\\Ecommerce-API\\Service\\DTOs\\AccountDTOs\\UpdateProfileDTO.cs",
+              "RelativeToolTip": "Service\\DTOs\\AccountDTOs\\UpdateProfileDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T18:18:53.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RoleDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Oruj\\Desktop\\Ecommerce-API\\Ecommerce-API\\Service\\DTOs\\AccountDTOs\\RoleDTO.cs",
+              "RelativeDocumentMoniker": "Service\\DTOs\\AccountDTOs\\RoleDTO.cs",
+              "ToolTip": "C:\\Users\\Oruj\\Desktop\\Ecommerce-API\\Ecommerce-API\\Service\\DTOs\\AccountDTOs\\RoleDTO.cs",
+              "RelativeToolTip": "Service\\DTOs\\AccountDTOs\\RoleDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T18:18:50.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SliderDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Oruj\\Desktop\\Ecommerce-API\\Ecommerce-API\\Service\\DTOs\\SliderDTOs\\SliderDTO.cs",
+              "RelativeDocumentMoniker": "Service\\DTOs\\SliderDTOs\\SliderDTO.cs",
+              "ToolTip": "C:\\Users\\Oruj\\Desktop\\Ecommerce-API\\Ecommerce-API\\Service\\DTOs\\SliderDTOs\\SliderDTO.cs",
+              "RelativeToolTip": "Service\\DTOs\\SliderDTOs\\SliderDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T18:15:17.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SliderController.cs",
+              "DocumentMoniker": "C:\\Users\\Oruj\\Desktop\\Ecommerce-API\\Ecommerce-API\\Ecommerce-API\\Controllers\\Admin\\SliderController.cs",
+              "RelativeDocumentMoniker": "Ecommerce-API\\Controllers\\Admin\\SliderController.cs",
+              "ToolTip": "C:\\Users\\Oruj\\Desktop\\Ecommerce-API\\Ecommerce-API\\Ecommerce-API\\Controllers\\Admin\\SliderController.cs",
+              "RelativeToolTip": "Ecommerce-API\\Controllers\\Admin\\SliderController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T18:13:41.194Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

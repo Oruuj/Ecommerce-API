@@ -1,0 +1,56 @@
+2025-06-19 14:53:01.747 +04:00 [INF] User profile is available. Using 'C:\Users\Oruj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-19 14:53:01.830 +04:00 [INF] Now listening on: https://localhost:7279
+2025-06-19 14:53:01.832 +04:00 [INF] Now listening on: http://localhost:5206
+2025-06-19 14:53:01.879 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-19 14:53:01.880 +04:00 [INF] Hosting environment: Development
+2025-06-19 14:53:01.880 +04:00 [INF] Content root path: C:\Users\Oruj\Documents\Projects\Ecommerce\Ecommerce-API\Ecommerce-API
+2025-06-19 14:53:02.358 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7279/swagger/index.html - null null
+2025-06-19 14:53:02.457 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7279/swagger/index.html - 200 null text/html;charset=utf-8 100.1222ms
+2025-06-19 14:53:02.486 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7279/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-19 14:53:02.486 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7279/_vs/browserLink - null null
+2025-06-19 14:53:02.492 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7279/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 6.0855ms
+2025-06-19 14:53:02.505 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7279/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.5398ms
+2025-06-19 14:53:02.639 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7279/swagger/v1/swagger.json - null null
+2025-06-19 14:53:02.656 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7279/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.1339ms
+2025-06-19 14:53:08.575 +04:00 [INF] User profile is available. Using 'C:\Users\Oruj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-19 14:53:08.654 +04:00 [INF] Now listening on: https://localhost:7279
+2025-06-19 14:53:08.655 +04:00 [INF] Now listening on: http://localhost:5206
+2025-06-19 14:53:08.702 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-19 14:53:08.703 +04:00 [INF] Hosting environment: Development
+2025-06-19 14:53:08.703 +04:00 [INF] Content root path: C:\Users\Oruj\Documents\Projects\Ecommerce\Ecommerce-API\Ecommerce-API
+2025-06-19 14:53:09.190 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7279/swagger/index.html - null null
+2025-06-19 14:53:09.267 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7279/swagger/index.html - 200 null text/html;charset=utf-8 77.616ms
+2025-06-19 14:53:09.288 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7279/_vs/browserLink - null null
+2025-06-19 14:53:09.288 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7279/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-19 14:53:09.295 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7279/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript; charset=utf-8 6.5709ms
+2025-06-19 14:53:09.303 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7279/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.9069ms
+2025-06-19 14:53:09.399 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7279/swagger/v1/swagger.json - null null
+2025-06-19 14:53:09.414 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7279/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.5583ms
+2025-06-19 14:53:18.903 +04:00 [WRN] No store type was specified for the decimal property 'DiscountedPrice' on entity type 'BasketItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-19 14:53:18.924 +04:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'BasketItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-19 14:53:18.924 +04:00 [WRN] No store type was specified for the decimal property 'DiscountPercentage' on entity type 'Discount'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-19 14:53:18.924 +04:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-19 14:53:19.113 +04:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-19 14:53:19.127 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-06-19 14:53:19.129 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-19 14:53:19.129 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-06-19 14:53:19.137 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-06-19 14:53:19.145 +04:00 [INF] Applying migration '20250619105302_hh'.
+2025-06-19 14:53:19.195 +04:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[ProductSliders]') AND [c].[name] = N'ProductId');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [ProductSliders] DROP CONSTRAINT [' + @var0 + '];');
+ALTER TABLE [ProductSliders] ALTER COLUMN [ProductId] int NULL;
+2025-06-19 14:53:19.197 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250619105302_hh', N'8.0.17');

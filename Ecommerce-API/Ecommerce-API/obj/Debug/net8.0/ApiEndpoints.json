@@ -1,0 +1,1153 @@
+[
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.AccountController",
+    "Method": "AddRoleToUser",
+    "RelativePath": "api/Account/Admin/AddRoleToUser",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RoleId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.AccountController",
+    "Method": "CreateRole",
+    "RelativePath": "api/Account/Admin/CreateRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.AccountController",
+    "Method": "GetRolesWithUsers",
+    "RelativePath": "api/Account/Admin/GetRolesWithUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.AccountController",
+    "Method": "GetUsers",
+    "RelativePath": "api/Account/Admin/GetUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.AccountController",
+    "Method": "RemoveRoleFromUser",
+    "RelativePath": "api/Account/Admin/RemoveRoleFromUser",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RoleId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.UI.AccountController",
+    "Method": "ConfirmEmail",
+    "RelativePath": "api/Account/UI/ConfirmEmail/ConfirmEmail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.UI.AccountController",
+    "Method": "CreateRoles",
+    "RelativePath": "api/Account/UI/CreateRoles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.UI.AccountController",
+    "Method": "GetProfile",
+    "RelativePath": "api/Account/UI/GetProfile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.UI.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/Account/UI/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Service.DTOs.Account.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.UI.AccountController",
+    "Method": "Register",
+    "RelativePath": "api/Account/UI/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Service.DTOs.AccountDTOs.RegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.UI.AccountController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/Account/UI/UpdateProfile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Service.DTOs.AccountDTOs.UpdateProfileDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketController",
+    "Method": "GetBasket",
+    "RelativePath": "api/Basket/{buyerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "buyerId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketController",
+    "Method": "AddItem",
+    "RelativePath": "api/Basket/{buyerId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "buyerId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "itemDto",
+        "Type": "Service.DTOs.BasketDTOs.BasketItemCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketController",
+    "Method": "RemoveItem",
+    "RelativePath": "api/Basket/{buyerId}/{productId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "buyerId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketController",
+    "Method": "UpdateItemQuantity",
+    "RelativePath": "api/Basket/{buyerId}/{productId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "buyerId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "quantity",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.CategoryController",
+    "Method": "Create",
+    "RelativePath": "api/Category/Admin/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.CategoryController",
+    "Method": "Delete",
+    "RelativePath": "api/Category/Admin/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.CategoryController",
+    "Method": "Update",
+    "RelativePath": "api/Category/Admin/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.UI.CategoryController",
+    "Method": "GetAll",
+    "RelativePath": "api/Category/UI/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.UI.CategoryController",
+    "Method": "GetById",
+    "RelativePath": "api/Category/UI/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.DiscountController",
+    "Method": "AddtoProduct",
+    "RelativePath": "api/Discount/Admin/AddtoProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Service.DTOs.DiscountDTOs.DiscountAddDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.DiscountController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/Discount/Admin/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Service.DTOs.DiscountDTOs.DiscountCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.DiscountController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/Discount/Admin/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.DiscountController",
+    "Method": "GetAllDiscountByProduct",
+    "RelativePath": "api/Discount/Admin/GetAllDiscountByProduct/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.DiscountController",
+    "Method": "GetAllProductByDiscount",
+    "RelativePath": "api/Discount/Admin/GetAllProductByDiscount/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.DiscountController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Discount/Admin/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Service.DTOs.DiscountDTOs.DiscountUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.UI.DiscountController",
+    "Method": "GetAll",
+    "RelativePath": "api/Discount/UI/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.UI.DiscountController",
+    "Method": "GetById",
+    "RelativePath": "api/Discount/UI/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.ProductController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/Product/Admin/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Brand",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "StockQuantity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductFeatures",
+        "Type": "System.Collections.Generic.List\u00601[[Service.DTOs.ProductFeatureDTOs.ProductFeatureCreateDTO, Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "DiscountProducts",
+        "Type": "System.Collections.Generic.List\u00601[[Domain.Entities.DiscountProduct, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Images",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.ProductController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/Product/Admin/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.ProductController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Product/Admin/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Brand",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "StockQuantity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Images",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.UI.ProductController",
+    "Method": "GetAll",
+    "RelativePath": "api/Product/UI/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.UI.ProductController",
+    "Method": "GetAllWithInclude",
+    "RelativePath": "api/Product/UI/GetAllWithInclude",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.UI.ProductController",
+    "Method": "GetById",
+    "RelativePath": "api/Product/UI/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.UI.ProductController",
+    "Method": "GetByIdWithIncludeAsync",
+    "RelativePath": "api/Product/UI/GetByIdWithInclude/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.UI.ProductController",
+    "Method": "GetWithPagination",
+    "RelativePath": "api/Product/UI/GetWithPagination",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "sort",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "brands",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "categories",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.UI.ProductController",
+    "Method": "Search",
+    "RelativePath": "api/Product/UI/Search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "text",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.ProductFeatureController",
+    "Method": "Create",
+    "RelativePath": "api/ProductFeature/Admin/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Value",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.ProductFeatureController",
+    "Method": "Delete",
+    "RelativePath": "api/ProductFeature/Admin/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.ProductFeatureController",
+    "Method": "Update",
+    "RelativePath": "api/ProductFeature/Admin/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Service.DTOs.ProductFeatureDTOs.ProductFeatureUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.UI.ProductFeatureController",
+    "Method": "GetAll",
+    "RelativePath": "api/ProductFeature/UI/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.UI.ProductFeatureController",
+    "Method": "GetByAllProductId",
+    "RelativePath": "api/ProductFeature/UI/GetByAllProductId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.UI.ProductFeatureController",
+    "Method": "GetById",
+    "RelativePath": "api/ProductFeature/UI/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.UI.ProductFeatureController",
+    "Method": "GetByProductId",
+    "RelativePath": "api/ProductFeature/UI/GetByProductId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.ProductSliderController",
+    "Method": "Create",
+    "RelativePath": "api/ProductSlider/Admin/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Desc",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ButtonUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ButtonText",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.ProductSliderController",
+    "Method": "Delete",
+    "RelativePath": "api/ProductSlider/Admin/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.ProductSliderController",
+    "Method": "Update",
+    "RelativePath": "api/ProductSlider/Admin/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Desc",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ButtonUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ButtonText",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.UI.ProductSliderController",
+    "Method": "GetAll",
+    "RelativePath": "api/ProductSlider/UI/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.UI.ProductSliderController",
+    "Method": "GetById",
+    "RelativePath": "api/ProductSlider/UI/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.SettingController",
+    "Method": "Create",
+    "RelativePath": "api/Setting/Admin/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Service.DTOs.SettingDTOs.SettingCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.SettingController",
+    "Method": "Delete",
+    "RelativePath": "api/Setting/Admin/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.SettingController",
+    "Method": "GetAllAsyncForAdmin",
+    "RelativePath": "api/Setting/Admin/GetAllAsyncForAdmin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.SettingController",
+    "Method": "Update",
+    "RelativePath": "api/Setting/Admin/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Service.DTOs.SettingDTOs.SettingUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.UI.SettingController",
+    "Method": "GetAll",
+    "RelativePath": "api/Setting/UI/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.UI.SettingController",
+    "Method": "GetById",
+    "RelativePath": "api/Setting/UI/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Service.DTOs.SettingDTOs.SettingDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.SliderController",
+    "Method": "Create",
+    "RelativePath": "api/Slider/Admin/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "ButtonText",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ButtonUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.SliderController",
+    "Method": "Delete",
+    "RelativePath": "api/Slider/Admin/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.Admin.SliderController",
+    "Method": "Update",
+    "RelativePath": "api/Slider/Admin/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "ButtonText",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ButtonUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.UI.SliderController",
+    "Method": "GetAll",
+    "RelativePath": "api/Slider/UI/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce_API.Controllers.UI.SliderController",
+    "Method": "GetById",
+    "RelativePath": "api/Slider/UI/GetById/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
