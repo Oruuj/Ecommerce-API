@@ -1221,3 +1221,4 @@ C:\Users\Oruj\Desktop\Ecommerce-API\Ecommerce-API\Ecommerce-API\obj\Debug\net8.0
 C:\Users\Oruj\Desktop\Ecommerce-API\Ecommerce-API\Ecommerce-API\obj\Debug\net8.0\Ecommerce-API.pdb
 C:\Users\Oruj\Desktop\Ecommerce-API\Ecommerce-API\Ecommerce-API\obj\Debug\net8.0\Ecommerce-API.genruntimeconfig.cache
 C:\Users\Oruj\Desktop\Ecommerce-API\Ecommerce-API\Ecommerce-API\obj\Debug\net8.0\ref\Ecommerce-API.dll
+C:\Users\Oruj\Desktop\Ecommerce-API\Ecommerce-API\Ecommerce-API\obj\Debug\net8.0\Ecommerce-API.sourcelink.json
